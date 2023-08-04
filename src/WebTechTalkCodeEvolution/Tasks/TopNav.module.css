@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.About {
+    font-weight: bold;
+    font-size: 20px;
+    color: purple;
+    margin: 50px;
+}

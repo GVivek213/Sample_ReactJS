@@ -1,0 +1,15 @@
+.nav {
+    background-color: #13030e;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.element-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    background-color: #ece6e6;
+}

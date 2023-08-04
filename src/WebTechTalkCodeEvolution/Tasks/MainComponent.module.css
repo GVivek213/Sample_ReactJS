@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+    background-color: #fab7fa;
+    color: purple;
+    font-size: 50px;
+}

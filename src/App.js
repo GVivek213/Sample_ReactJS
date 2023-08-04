@@ -1,23 +1,18 @@
 import './App.css';
-import CakeView from './Features/Cake/CakeView'
-import IcecreamView from './Features/Icecream/IcecreamView'
-import UserView from './Features/Users/UserView'
-import TablePagination from './Table/TablePagination';
-import FocusInput from './app/Formik/FocusInput';
-import A from './app/Formik/A'
-import RandomNumber from './app/Formik/RandomNumber'
-
+import Header from './WebTechTalkCodeEvolution/Tasks/Header';
+import Main from './WebTechTalkCodeEvolution/Tasks/Main';
+import { useState } from 'react';
+import FormHandling from './WebTechTalkCodeEvolution/Practice/FormHandling'
+import RoutingSample from './WebTechTalkCodeEvolution/Router/RoutingSample';
 function App() {
+  const [activeTab, setActiveTab] = useState("snacks")
   return (
-    <div className="App">
-      {/* <CakeView />
-      <IcecreamView />
-      <UserView /> */}
-      {/* <Theme /> */}
-      {/* <FocusInput /> */}
-      {/* <A  name = "A"/>
-      <B name = "B"/> */}
-      <RandomNumber/>
+    <div>
+      {/* <Header setActiveTab={setActiveTab} />
+      <Main activeTab={activeTab} /> */}
+      {/* <FormHandling /> */}
+      <RoutingSample />
+
     </div>
   );
 }
