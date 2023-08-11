@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const HOCCounter = (WrappedComponent, num) => {
+const HOCCounter = (WrappedComponent, num) => { 
     function HOCCounter(props) {
         const [counter, setCounter] = useState(0)
         const incrementCount = () => {
