@@ -13,3 +13,24 @@
     height: calc(100vh - 100px);
     background-color: #ece6e6;
 }
+
+.button-home {
+    height: 60px;
+    padding: 0px 23px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #ffae00;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 24px;
+    width: 139px;
+}
+
+.input-products {
+    font-size: 20px !important;
+    border: 2px solid black;
+}
+
+.nested-route {
+    margin-left: 15px;
+}
